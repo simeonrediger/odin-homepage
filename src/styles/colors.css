@@ -2,9 +2,9 @@ html {
   --black: #060b04;
   --dark-gray: #181818;
   --gray: #383838;
-  --light-gray: #555;
+  --light-gray: #575655;
   --white: #fff;
 
   --color-bg-primary: var(--white);
-  --color-text-primary: var(--white);
+  --color-text-body-paragraph: var(--light-gray);
 }
