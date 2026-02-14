@@ -2,19 +2,18 @@
   padding: 2rem 2.5rem;
 }
 
-.links {
-  display: flex;
-}
-
 .about-me-links {
+  display: flex;
   gap: 0.875rem;
 }
 
 .project-links {
+  display: flex;
   gap: 0.625rem;
 }
 
 .footer-links {
+  display: flex;
   gap: 1.25rem;
 }
 
