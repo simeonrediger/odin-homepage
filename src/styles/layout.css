@@ -17,3 +17,8 @@
 .footer-links {
   gap: 1.25rem;
 }
+
+.contact-link {
+  display: flex;
+  gap: 0.5rem;
+}
