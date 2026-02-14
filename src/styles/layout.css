@@ -1,3 +1,19 @@
 .page-level-padding {
   padding: 2rem 2.5rem;
 }
+
+.links {
+  display: flex;
+}
+
+.about-me-links {
+  gap: 0.875rem;
+}
+
+.project-links {
+  gap: 0.625rem;
+}
+
+.footer-links {
+  gap: 1.25rem;
+}
