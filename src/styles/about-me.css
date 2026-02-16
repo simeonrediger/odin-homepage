@@ -4,6 +4,10 @@
 
 .about-me {
   background-color: var(--color-bg-primary);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .about-me-links {
