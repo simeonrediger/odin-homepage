@@ -4,6 +4,7 @@
 
 .about-me {
   background-color: var(--color-bg-primary);
+  padding: 1.5rem 2rem;
 
   display: flex;
   flex-direction: column;
