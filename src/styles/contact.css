@@ -9,6 +9,8 @@
 }
 
 .contact-link {
+  color: inherit;
+
   display: flex;
   gap: 0.5rem;
 }
