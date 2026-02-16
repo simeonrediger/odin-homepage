@@ -1,3 +1,11 @@
+.about-me-section {
+  background-color: var(--color-accent);
+}
+
+.about-me {
+  background-color: var(--color-bg-primary);
+}
+
 .about-me-links {
   display: flex;
   gap: 0.875rem;
