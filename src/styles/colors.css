@@ -11,4 +11,5 @@ html {
   --color-bg-primary: var(--white);
   --color-bg-footer: var(--color-accent);
   --color-text-body-paragraph: var(--light-gray);
+  --color-icon: var(--black);
 }
