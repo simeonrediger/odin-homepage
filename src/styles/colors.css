@@ -5,6 +5,10 @@ html {
   --light-gray: #575655;
   --white: #fff;
 
+  --blue-green: #0891b2;
+
+  --color-accent: var(--blue-green);
   --color-bg-primary: var(--white);
+  --color-bg-footer: var(--color-accent);
   --color-text-body-paragraph: var(--light-gray);
 }

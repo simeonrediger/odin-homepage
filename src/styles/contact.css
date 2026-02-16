@@ -1,3 +1,8 @@
+.contact-me-section {
+  background-color: var(--color-accent);
+  color: var(--color-text-footer);
+}
+
 .footer-links {
   display: flex;
   gap: 1.25rem;
