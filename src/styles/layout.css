@@ -1,3 +1,13 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .page-level-padding {
   padding: 2rem 2.5rem;
+}
+
+.contact-me-section {
+  flex-grow: 1;
 }
