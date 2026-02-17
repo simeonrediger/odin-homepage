@@ -5,7 +5,7 @@ import './styles/layout.css';
 
 import './styles/about-me.css';
 import './styles/projects.css';
-import './styles/contact.css';
+import './styles/contact-me.css';
 
 import './styles/icon.css';
 import './styles/utilities.css';
