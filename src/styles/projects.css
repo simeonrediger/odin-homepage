@@ -20,6 +20,7 @@
   height: 11.5rem;
   padding: 1.5rem;
   text-align: center;
+  text-wrap-style: balance;
 
   display: flex;
   justify-content: center;
