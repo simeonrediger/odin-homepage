@@ -21,8 +21,10 @@
 .project-5-image,
 .project-6-image {
   color: var(--color-project-image-text);
+  font-size: 2rem;
   height: 11.5rem;
   padding: 1.5rem;
+  text-align: center;
 
   display: flex;
   justify-content: center;
