@@ -5,6 +5,10 @@
   gap: 2.5rem 2rem;
 }
 
+.projects > * {
+  box-shadow: var(--box-shadow);
+}
+
 .project-links {
   display: flex;
   gap: 0.625rem;
