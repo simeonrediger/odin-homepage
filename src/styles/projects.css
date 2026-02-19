@@ -14,12 +14,7 @@
   gap: 0.625rem;
 }
 
-.project-1-image,
-.project-2-image,
-.project-3-image,
-.project-4-image,
-.project-5-image,
-.project-6-image {
+.project-image {
   color: var(--color-project-image-text);
   font-size: 2rem;
   height: 11.5rem;
