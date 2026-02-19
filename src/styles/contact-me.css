@@ -1,6 +1,9 @@
 .contact-me-section {
   background-color: var(--color-accent);
   color: var(--color-text-footer);
+
+  display: flex;
+  gap: 2rem;
 }
 
 .get-in-touch {
@@ -24,4 +27,11 @@
 .footer-links {
   display: flex;
   gap: 1.25rem;
+}
+
+.contact-me-image {
+  background-color: #000;
+  flex-shrink: 0;
+  width: 30.3125rem;
+  height: 23.1875rem;
 }
