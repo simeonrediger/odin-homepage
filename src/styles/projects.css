@@ -21,6 +21,7 @@
 .project-5-image,
 .project-6-image {
   color: var(--color-project-image-text);
+  height: 11.5rem;
 }
 
 .project-1-image {
