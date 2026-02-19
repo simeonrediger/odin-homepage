@@ -49,3 +49,9 @@
 .project-6-image {
   background-color: var(--color-bg-project-6-image);
 }
+
+.project-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
