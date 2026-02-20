@@ -4,8 +4,10 @@ body {
   flex-direction: column;
 }
 
-.page-level-padding {
-  padding: 2.625rem 3.625rem;
+.page-level {
+  --content-width: 51.25rem;
+  padding-block: 2.625rem;
+  padding-inline: max(3.625rem, calc(100% - var(--content-width)) / 2);
 }
 
 .contact-me-section {
