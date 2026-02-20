@@ -3,6 +3,7 @@
   color: var(--color-text-footer);
 
   display: flex;
+  justify-content: center;
   gap: 2rem;
 }
 
