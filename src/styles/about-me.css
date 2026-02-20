@@ -17,6 +17,7 @@
 
 .about-me-info {
   background-color: var(--color-bg-primary);
+  box-shadow: var(--box-shadow);
   padding: 1.5rem 2rem;
 
   display: flex;
