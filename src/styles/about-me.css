@@ -1,5 +1,18 @@
 .about-me-section {
+  overflow: hidden;
+  position: relative;
+}
+
+.about-me-section::before {
+  content: '';
   background-color: var(--color-accent);
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+
+  transform-origin: bottom left;
+  rotate: -12.75deg;
+  width: 1000%;
 }
 
 .about-me-info {
