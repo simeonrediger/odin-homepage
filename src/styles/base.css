@@ -1,5 +1,14 @@
 @font-face {
   font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/playfair-display-v40-latin-regular.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -8,4 +17,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', 'Times New Roman';
 }
