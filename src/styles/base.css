@@ -15,6 +15,10 @@
   src: url('../assets/fonts/roboto-v50-latin-regular.woff2') format('woff2');
 }
 
+html {
+  --box-shadow: var(--color-shadow) 1px 4px 6px 1px;
+}
+
 body {
   color: var(--color-text);
   font-family: 'Roboto', sans-serif;

@@ -29,6 +29,4 @@ html {
   --color-bg-project-4-image: var(--pink);
   --color-bg-project-5-image: var(--gold-orange);
   --color-bg-project-6-image: var(--pale-blue);
-
-  --box-shadow: var(--color-shadow) 1px 4px 6px 1px;
 }
