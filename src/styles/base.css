@@ -1,0 +1,11 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/roboto-v50-latin-regular.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
