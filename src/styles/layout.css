@@ -5,9 +5,9 @@ body {
 }
 
 .page-level {
-  --content-width: 51.25rem;
+  --max-content-width: 51.25rem;
   padding-block: 2.625rem;
-  padding-inline: max(3.625rem, calc(100% - var(--content-width)) / 2);
+  padding-inline: max(3.625rem, calc(100% - var(--max-content-width)) / 2);
 }
 
 .contact-me-section {
