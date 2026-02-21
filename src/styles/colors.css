@@ -16,7 +16,7 @@ html {
   --color-accent: var(--blue-green);
   --color-bg-primary: var(--white);
   --color-bg-footer: var(--color-accent);
-  --color-text-body-paragraph: var(--light-gray);
+  --color-text: var(--light-gray);
   --color-text-footer: var(--white);
   --color-icon: var(--black);
   --color-shadow: #0003;
