@@ -16,6 +16,7 @@
 }
 
 body {
+  color: var(--color-text);
   font-family: 'Roboto', sans-serif;
 }
 
