@@ -27,6 +27,15 @@
 
   width: 22.1875rem;
   height: 24.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.title-heading {
+  color: var(--color-text-title);
+  font-size: 2.75rem;
 }
 
 .about-me-info {

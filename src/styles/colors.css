@@ -17,6 +17,7 @@ html {
   --color-bg-primary: var(--white);
   --color-bg-footer: var(--color-accent);
   --color-text: var(--light-gray);
+  --color-text-title: var(--white);
   --color-text-heading: var(--black);
   --color-text-footer: var(--white);
   --color-icon: var(--black);
