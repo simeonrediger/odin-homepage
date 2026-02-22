@@ -1,6 +1,10 @@
+.contact-me-section,
+.contact-me-section .section-heading {
+  color: var(--color-text-footer);
+}
+
 .contact-me-section {
   background-color: var(--color-accent);
-  color: var(--color-text-footer);
 
   display: flex;
   justify-content: center;
