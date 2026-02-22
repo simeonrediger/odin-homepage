@@ -25,11 +25,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: var(--box-shadow);
-  flex-shrink: 0;
   z-index: 1;
 
   width: 22.1875rem;
   height: 24.25rem;
+  flex-shrink: 0;
 
   display: flex;
   justify-content: center;
