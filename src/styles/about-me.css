@@ -1,6 +1,9 @@
 .about-me-section {
   overflow: hidden;
   position: relative;
+
+  display: flex;
+  align-items: center;
 }
 
 .about-me-section::before {
@@ -14,6 +17,14 @@
   transform-origin: bottom left;
   rotate: -12.75deg;
   width: 1000%;
+}
+
+.about-me-image {
+  background-color: #000;
+  flex-shrink: 0;
+
+  width: 22.1875rem;
+  height: 24.25rem;
 }
 
 .about-me-info {
