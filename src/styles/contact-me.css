@@ -21,6 +21,12 @@
   margin-block: 1.25rem;
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .contact-link {
   color: inherit;
   text-decoration: none;
