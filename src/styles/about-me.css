@@ -36,6 +36,7 @@
 .title-heading {
   color: var(--color-text-title);
   font-size: 2.75rem;
+  text-shadow: var(--text-shadow);
 }
 
 .about-me-info {

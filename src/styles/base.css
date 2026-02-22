@@ -17,6 +17,7 @@
 
 html {
   --box-shadow: var(--color-shadow) 1px 4px 6px 1px;
+  --text-shadow: var(--color-shadow) 0 3px 2px;
 }
 
 body {
