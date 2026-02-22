@@ -21,6 +21,9 @@
 
 .about-me-image {
   background-color: #000;
+  background-image: url('../assets/images/chair-cat-desktop.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
   box-shadow: var(--box-shadow);
   flex-shrink: 0;
   z-index: 1;
