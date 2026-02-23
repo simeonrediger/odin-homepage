@@ -18,6 +18,13 @@ body {
   }
 }
 
+@media (width < 545px) {
+  .page-level {
+    --min-inline-padding: 0.6875rem;
+    padding-block: 0.8125rem;
+  }
+}
+
 .page-level {
   --max-content-width: 51.25rem;
 
