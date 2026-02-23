@@ -49,6 +49,23 @@
   gap: 0.875rem;
 }
 
+@media (width >= 825px) {
+  .about-me-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-me-image {
+    width: 22.1875rem;
+    height: 24.25rem;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+}
+
 @media (545px <= width <= 825px) {
   .image-container {
     float: left;
@@ -75,22 +92,5 @@
 
   .about-me-info .section-heading {
     text-align: center;
-  }
-}
-
-@media (width >= 825px) {
-  .about-me-section {
-    display: flex;
-    align-items: center;
-  }
-
-  .about-me-image {
-    width: 22.1875rem;
-    height: 24.25rem;
-    flex-shrink: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: end;
   }
 }
