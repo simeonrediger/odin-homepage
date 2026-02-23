@@ -49,6 +49,35 @@
   gap: 0.875rem;
 }
 
+@media (825px > width >= 545px) {
+  .image-container {
+    float: left;
+    margin-left: -2rem;
+    margin-right: 1rem;
+  }
+
+  .about-me-image {
+    width: 17rem;
+    height: 18.58rem;
+
+    top: 2rem;
+    left: 1.625rem;
+  }
+
+  .title-heading {
+    translate: 14.25rem;
+  }
+
+  .about-me-info {
+    margin-top: 4.25rem;
+    padding-top: 4.25rem;
+  }
+
+  .about-me-info .section-heading {
+    text-align: center;
+  }
+}
+
 @media (width >= 825px) {
   .about-me-section {
     display: flex;
