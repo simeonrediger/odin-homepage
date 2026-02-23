@@ -1,3 +1,10 @@
+/*
+Breakpoints:
+  - Desktop: [825px, ∞)
+  - Tablet: [545px, 825px)
+  - Mobile: [0px, 545px)
+*/
+
 @font-face {
   font-display: swap;
   font-family: 'Playfair Display';
