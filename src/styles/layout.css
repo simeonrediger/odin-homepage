@@ -4,10 +4,27 @@ body {
   flex-direction: column;
 }
 
+@media (width >= 825px) {
+  .page-level {
+    --min-inline-padding: 3.625rem;
+    padding-block: 2.625rem;
+  }
+}
+
+@media (545px <= width < 825px) {
+  .page-level {
+    --min-inline-padding: 3.375rem;
+    padding-block: 2rem;
+  }
+}
+
 .page-level {
   --max-content-width: 51.25rem;
-  padding-block: 2.625rem;
-  padding-inline: max(3.625rem, calc(100% - var(--max-content-width)) / 2);
+
+  padding-inline: max(
+    var(--min-inline-padding),
+    calc(100% - var(--max-content-width)) / 2
+  );
 }
 
 .contact-me-section {
