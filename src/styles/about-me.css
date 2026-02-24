@@ -59,8 +59,13 @@
     align-items: center;
   }
 
-  .about-me-image {
+  .image-container:has(.about-me-image) {
+    flex-shrink: 0;
     width: 22.1875rem;
+  }
+
+  .about-me-image {
+    width: 100%;
 
     display: flex;
     justify-content: center;
