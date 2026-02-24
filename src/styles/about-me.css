@@ -16,6 +16,10 @@
   width: 1000%;
 }
 
+.image-container:has(.about-me-image) {
+  z-index: 1;
+}
+
 .about-me-image {
   aspect-ratio: 355 / 388;
   background-color: #000;
@@ -23,7 +27,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: var(--box-shadow);
-  z-index: 1;
 }
 
 .title-heading {
