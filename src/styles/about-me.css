@@ -69,7 +69,7 @@
 }
 
 @media (545px <= width <= 825px) {
-  .image-container {
+  .image-container:has(.about-me-image) {
     float: left;
     margin-left: -2rem;
     margin-right: 1rem;
