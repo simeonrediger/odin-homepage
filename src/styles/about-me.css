@@ -73,7 +73,7 @@
   }
 }
 
-@media (545px <= width <= 825px) {
+@media (525px <= width <= 825px) {
   .image-container:has(.about-me-image) {
     float: left;
     margin-left: -2rem;

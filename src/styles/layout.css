@@ -11,14 +11,14 @@ body {
   }
 }
 
-@media (545px <= width < 825px) {
+@media (525px <= width < 825px) {
   .page-level {
     --min-inline-padding: 3.375rem;
     padding-block: 2rem;
   }
 }
 
-@media (width < 545px) {
+@media (width < 525px) {
   .page-level {
     --min-inline-padding: 0.6875rem;
     padding-block: 0.8125rem;
