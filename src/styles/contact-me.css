@@ -51,3 +51,10 @@
     width: 30.3125rem;
   }
 }
+
+@media (525px <= width < 825px) {
+  .contact-me-image {
+    aspect-ratio: 267 / 375;
+    width: 16.6875rem;
+  }
+}
