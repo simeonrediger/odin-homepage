@@ -43,6 +43,6 @@
 .contact-me-image {
   background-color: #000;
   flex-shrink: 0;
+  aspect-ratio: 485 / 371;
   width: 30.3125rem;
-  height: 23.1875rem;
 }
