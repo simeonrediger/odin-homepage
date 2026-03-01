@@ -74,6 +74,10 @@
 }
 
 @media (525px <= width < 825px) {
+  .about-me-section::before {
+    bottom: 10rem;
+  }
+
   .image-container:has(.about-me-image) {
     float: left;
     margin-left: -2rem;
