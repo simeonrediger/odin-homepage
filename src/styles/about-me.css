@@ -123,4 +123,10 @@
     font-size: 4rem;
     padding-inline: 1rem;
   }
+
+  .about-me-info {
+    background-color: unset;
+    box-shadow: unset;
+    padding: unset;
+  }
 }
