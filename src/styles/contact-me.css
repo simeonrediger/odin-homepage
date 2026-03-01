@@ -13,6 +13,7 @@
 }
 
 .contact-me-info {
+  flex-shrink: 2.4;
   min-width: 12.5rem;
   max-width: 17rem;
 }
