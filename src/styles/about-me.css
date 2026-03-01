@@ -107,6 +107,11 @@
 }
 
 @media (width < 525px) {
+  .about-me-section::before {
+    bottom: 21rem;
+    rotate: -30deg;
+  }
+
   .about-me-image {
     aspect-ratio: 432 / 693;
     background-image: url('../assets/images/chair-cat-mobile.webp');
