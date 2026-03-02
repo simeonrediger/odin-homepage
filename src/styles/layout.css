@@ -23,6 +23,10 @@ body {
     --min-inline-padding: 1.5rem;
     padding-block: 1.25rem;
   }
+
+  .section-heading {
+    text-align: center;
+  }
 }
 
 .page-level {
