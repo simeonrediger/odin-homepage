@@ -129,4 +129,8 @@
     box-shadow: unset;
     padding: unset;
   }
+
+  .about-me-info .section-heading {
+    text-align: center;
+  }
 }
