@@ -64,3 +64,15 @@
     width: 16.6875rem;
   }
 }
+
+@media (width < 525px) {
+  .contact-me-section {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .contact-me-image {
+    aspect-ratio: 267 / 375;
+    width: 100vw;
+  }
+}
