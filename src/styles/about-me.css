@@ -138,4 +138,8 @@
   .about-me-text {
     margin-top: 0.25rem;
   }
+
+  .about-me-links {
+    justify-content: center;
+  }
 }
