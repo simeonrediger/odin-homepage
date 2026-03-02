@@ -74,6 +74,10 @@
 }
 
 @media (width < 525px) {
+  .projects-section {
+    margin-bottom: 3rem;
+  }
+
   .projects-section .section-heading {
     margin-bottom: 0.75rem;
     text-align: center;
