@@ -1,12 +1,30 @@
 .projects {
+  margin-top: 2rem;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-auto-rows: 19.0625rem;
+  justify-items: center;
   gap: 2.5rem 2rem;
 }
 
 .projects > * {
   box-shadow: var(--box-shadow);
+  max-width: 17rem;
+}
+
+.project-1 {
+  position: relative;
+}
+
+.project-1::before {
+  content: 'My work' / '';
+  position: absolute;
+  translate: 0 -100%;
+
+  color: var(--color-text-heading);
+  font-family: 'Playfair Display', 'Times New Roman';
+  font-size: 2rem;
 }
 
 .project-links {
