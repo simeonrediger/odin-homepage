@@ -72,3 +72,9 @@
   font-size: 0.75rem;
   line-height: 0.875rem;
 }
+
+@media (width < 525px) {
+  .projects-section .section-heading {
+    text-align: center;
+  }
+}
