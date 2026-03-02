@@ -133,4 +133,8 @@
   .about-me-info .section-heading {
     text-align: center;
   }
+
+  .about-me-text {
+    margin-top: 0.25rem;
+  }
 }
