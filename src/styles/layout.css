@@ -20,8 +20,8 @@ body {
 
 @media (width < 525px) {
   .page-level {
-    --min-inline-padding: 2.875rem;
-    padding-block: 2.25rem;
+    --min-inline-padding: 1.5rem;
+    padding-block: 1.25rem;
   }
 }
 
