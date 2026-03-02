@@ -71,6 +71,10 @@
     padding-bottom: 0;
   }
 
+  .footer-links {
+    justify-content: center;
+  }
+
   .contact-me-image {
     aspect-ratio: 267 / 375;
     width: 100vw;
