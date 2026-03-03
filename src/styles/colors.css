@@ -6,12 +6,6 @@ html {
   --white: #fff;
 
   --blue-green: #0891b2;
-  --crimson: #9e1c1c;
-  --lavender: #7c75ca;
-  --green: #5e8f4d;
-  --pink: #c363b4;
-  --gold-orange: #d88f39;
-  --pale-blue: #4ba2d2;
 
   --color-accent: var(--blue-green);
   --color-bg-primary: var(--white);
@@ -22,12 +16,4 @@ html {
   --color-text-footer: var(--white);
   --color-icon: var(--black);
   --color-shadow: #0003;
-
-  --color-project-image-text: var(--white);
-  --color-bg-project-1-image: var(--crimson);
-  --color-bg-project-2-image: var(--lavender);
-  --color-bg-project-3-image: var(--green);
-  --color-bg-project-4-image: var(--pink);
-  --color-bg-project-5-image: var(--gold-orange);
-  --color-bg-project-6-image: var(--pale-blue);
 }
