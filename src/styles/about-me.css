@@ -86,7 +86,7 @@
   }
 
   .about-me-image {
-    width: calc(40vw + 0rem);
+    width: 40vw;
 
     top: 2rem;
     left: 1.625rem;
