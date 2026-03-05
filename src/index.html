@@ -11,9 +11,18 @@
     <main>
       <section class="about-me-section page-level">
         <div class="image-container">
-          <div class="about-me-image">
-            <h1 class="title-heading">Chair Cat</h1>
-          </div>
+          <picture class="about-me-image">
+            <source
+              srcset="./assets/images/chair-cat-mobile.webp"
+              media="(width < 525px)"
+            />
+            <img
+              src="./assets/images/chair-cat-desktop.webp"
+              alt="Fluffy white cat sits atop a black leather chair"
+              title="Photo by Tranmautritam from Pexels"
+            />
+          </picture>
+          <h1 class="title-heading">Chair Cat</h1>
         </div>
         <div class="about-me-info">
           <h2 class="section-heading">About me</h2>

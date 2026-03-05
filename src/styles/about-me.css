@@ -17,22 +17,24 @@
 }
 
 .image-container:has(.about-me-image) {
+  position: relative;
   z-index: 1;
 }
 
 .about-me-image {
-  aspect-ratio: 355 / 388;
-  background-color: #000;
-  background-image: url('../assets/images/chair-cat-desktop.webp');
-  background-size: contain;
-  background-repeat: no-repeat;
   box-shadow: var(--box-shadow);
 }
 
 .title-heading {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50%;
+
   color: var(--color-text-title);
   font-size: 2.75rem;
   text-shadow: var(--text-shadow);
+  text-wrap: nowrap;
 }
 
 .about-me-info {
@@ -63,14 +65,6 @@
     flex-shrink: 0;
     width: 22.1875rem;
   }
-
-  .about-me-image {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: end;
-  }
 }
 
 @media (525px <= width < 825px) {
@@ -87,13 +81,12 @@
 
   .about-me-image {
     width: 40vw;
-
-    top: 2rem;
-    left: 1.625rem;
   }
 
   .title-heading {
-    translate: 14.25rem;
+    top: 0;
+    left: 100%;
+    translate: -23%;
   }
 
   .about-me-info {
@@ -110,13 +103,6 @@
   .about-me-section::before {
     bottom: 21rem;
     rotate: -30deg;
-  }
-
-  .about-me-image {
-    aspect-ratio: 432 / 693;
-    background-image: url('../assets/images/chair-cat-mobile.webp');
-    display: flex;
-    align-items: end;
   }
 
   .title-heading {
