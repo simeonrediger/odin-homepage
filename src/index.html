@@ -379,11 +379,27 @@
       </div>
       <picture class="contact-me-image">
         <source
-          srcset="./assets/images/cat-peeking-narrow.webp"
+          srcset="
+            ./assets/images/cat-peeking-narrow-267w.webp   267w,
+            ./assets/images/cat-peeking-narrow-524w.webp   524w,
+            ./assets/images/cat-peeking-narrow-1048w.webp 1048w,
+            ./assets/images/cat-peeking-narrow-1572w.webp 1572w
+          "
+          sizes="
+            (width < 525px) 100vw,
+            (width < 663px) 50%,
+            16.6875rem
+          "
           media="(width < 825px)"
         />
         <img
-          src="./assets/images/cat-peeking.webp"
+          srcset="
+            ./assets/images/cat-peeking-485w.webp   485w,
+            ./assets/images/cat-peeking-970w.webp   970w,
+            ./assets/images/cat-peeking-1455w.webp 1455w
+          "
+          sizes="30.3125rem"
+          src="./assets/images/cat-peeking-1455w.webp"
           alt="Gray and white kitten peeking from behind a pillow"
           title="Photo by Francesco Ungaro from Pexels"
         />
