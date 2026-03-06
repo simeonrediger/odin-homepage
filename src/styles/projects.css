@@ -24,7 +24,7 @@
 
   color: var(--color-text-heading);
   font-family: 'Playfair Display', 'Times New Roman';
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .project-links {
@@ -49,11 +49,11 @@
 }
 
 .project-heading {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .project-description {
-  font-size: 0.75rem;
+  font-size: 0.75em;
   line-height: 0.875rem;
 }
 

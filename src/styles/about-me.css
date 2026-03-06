@@ -32,7 +32,7 @@
   translate: -50%;
 
   color: var(--color-text-title);
-  font-size: 2.75rem;
+  font-size: 2.75em;
   text-shadow: var(--text-shadow);
   text-wrap: nowrap;
 }
@@ -106,7 +106,7 @@
   }
 
   .title-heading {
-    font-size: max(18cqw, 1rem);
+    font-size: max(18cqw, 1em);
   }
 
   .about-me-info {
