@@ -106,7 +106,7 @@
   }
 
   .title-heading {
-    font-size: 4rem;
+    font-size: max(18cqw, 1rem);
     padding-inline: 1rem;
   }
 
