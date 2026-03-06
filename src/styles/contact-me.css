@@ -47,20 +47,14 @@
   gap: 1.25rem;
 }
 
-.contact-me-image {
-  background-color: #000;
-}
-
 @media (width >= 825px) {
   .contact-me-image {
-    aspect-ratio: 485 / 371;
     width: 30.3125rem;
   }
 }
 
 @media (525px <= width < 825px) {
   .contact-me-image {
-    aspect-ratio: 267 / 375;
     width: 16.6875rem;
   }
 }
@@ -76,7 +70,6 @@
   }
 
   .contact-me-image {
-    aspect-ratio: 267 / 375;
     width: 100vw;
   }
 }
