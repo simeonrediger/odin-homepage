@@ -13,11 +13,25 @@
         <div class="image-container">
           <picture class="about-me-image">
             <source
-              srcset="./assets/images/chair-cat-narrow.webp"
+              srcset="
+                ./assets/images/chair-cat-narrow-476w.webp   476w,
+                ./assets/images/chair-cat-narrow-952w.webp   952w,
+                ./assets/images/chair-cat-narrow-1428w.webp 1428w
+              "
+              sizes="calc(100vw - 3rem)"
               media="(width < 525px)"
             />
             <img
-              src="./assets/images/chair-cat.webp"
+              srcset="
+                ./assets/images/chair-cat-355w.webp   355w,
+                ./assets/images/chair-cat-710w.webp   710w,
+                ./assets/images/chair-cat-1065w.webp 1065w
+              "
+              sizes="
+                (width < 825px) 40vw,
+                355px
+              "
+              src="./assets/images/chair-cat-1065w.webp"
               alt="Fluffy white cat sits atop a black leather chair"
               title="Photo by Tranmautritam from Pexels"
             />
